@@ -13,6 +13,11 @@
 		A9C6F15924738D2500E97C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C6F15724738D2500E97C7C /* Main.storyboard */; };
 		A9C6F15B24738D2600E97C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C6F15A24738D2600E97C7C /* Assets.xcassets */; };
 		A9C6F15E24738D2600E97C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C6F15C24738D2600E97C7C /* LaunchScreen.storyboard */; };
+		A9C6F16724738F6900E97C7C /* SetPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C6F16624738F6900E97C7C /* SetPlan.storyboard */; };
+		A9C6F1692473902100E97C7C /* ChooseExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C6F1682473902100E97C7C /* ChooseExercise.storyboard */; };
+		A9C6F16B2473903500E97C7C /* IndoorExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C6F16A2473903500E97C7C /* IndoorExercise.storyboard */; };
+		A9C6F16D2473905400E97C7C /* OutDoorExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C6F16C2473905400E97C7C /* OutDoorExercise.storyboard */; };
+		A9C6F16F247390DC00E97C7C /* ProgressPlan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C6F16E247390DC00E97C7C /* ProgressPlan.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A9C6F15A24738D2600E97C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C6F15D24738D2600E97C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9C6F15F24738D2600E97C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C6F16624738F6900E97C7C /* SetPlan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetPlan.storyboard; sourceTree = "<group>"; };
+		A9C6F1682473902100E97C7C /* ChooseExercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChooseExercise.storyboard; sourceTree = "<group>"; };
+		A9C6F16A2473903500E97C7C /* IndoorExercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IndoorExercise.storyboard; sourceTree = "<group>"; };
+		A9C6F16C2473905400E97C7C /* OutDoorExercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OutDoorExercise.storyboard; sourceTree = "<group>"; };
+		A9C6F16E247390DC00E97C7C /* ProgressPlan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgressPlan.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				A9C6F15A24738D2600E97C7C /* Assets.xcassets */,
 				A9C6F15C24738D2600E97C7C /* LaunchScreen.storyboard */,
 				A9C6F15F24738D2600E97C7C /* Info.plist */,
+				A9C6F16624738F6900E97C7C /* SetPlan.storyboard */,
+				A9C6F1682473902100E97C7C /* ChooseExercise.storyboard */,
+				A9C6F16A2473903500E97C7C /* IndoorExercise.storyboard */,
+				A9C6F16C2473905400E97C7C /* OutDoorExercise.storyboard */,
+				A9C6F16E247390DC00E97C7C /* ProgressPlan.storyboard */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -125,9 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C6F16724738F6900E97C7C /* SetPlan.storyboard in Resources */,
 				A9C6F15E24738D2600E97C7C /* LaunchScreen.storyboard in Resources */,
+				A9C6F16D2473905400E97C7C /* OutDoorExercise.storyboard in Resources */,
+				A9C6F1692473902100E97C7C /* ChooseExercise.storyboard in Resources */,
 				A9C6F15B24738D2600E97C7C /* Assets.xcassets in Resources */,
 				A9C6F15924738D2500E97C7C /* Main.storyboard in Resources */,
+				A9C6F16F247390DC00E97C7C /* ProgressPlan.storyboard in Resources */,
+				A9C6F16B2473903500E97C7C /* IndoorExercise.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

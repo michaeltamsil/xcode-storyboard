@@ -22,6 +22,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yn-7q-OvK">
+                                <rect key="frame" x="144" y="151" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Choose Exercise"/>
+                                <connections>
+                                    <segue destination="oLR-iL-46i" kind="show" id="fuE-i3-LP7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqe-zi-tgE">
+                                <rect key="frame" x="186" y="459" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Set Plan"/>
+                                <connections>
+                                    <segue destination="gjY-H8-hOe" kind="show" id="S72-zm-2pg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -29,7 +45,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33" y="139"/>
+            <point key="canvasLocation" x="-213" y="82"/>
+        </scene>
+        <!--ChooseExercise-->
+        <scene sceneID="FMf-pb-Y4O">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChooseExercise" id="oLR-iL-46i" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="MDA-rS-Ifm"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qd7-D5-cT4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413" y="-171"/>
+        </scene>
+        <!--SetPlan-->
+        <scene sceneID="UHg-Ur-z57">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SetPlan" id="gjY-H8-hOe" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2PR-41-0BT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ja-qC-AcX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="459" y="-121"/>
         </scene>
     </scenes>
 </document>
